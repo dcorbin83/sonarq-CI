@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 srcDir = sys.argv[1]
-sonarParams="/k:Ansys:SpeosSC01 ";
+sonarParams="/k:org:myProject ";
 branch="dev";
 
 propertiesFile = f"{srcDir}/sonar-project.properties"
